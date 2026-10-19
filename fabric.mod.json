@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "confis0oooooo",
+  "version": "${version}",
+  "name": "Confis0oooooo Client",
+  "description": "A Lunar-style client HUD: FPS, armor status, ping, waypoints, clock, day, server TPS, keystrokes, CPS and minimap. Press Right Shift for the menu.",
+  "authors": ["Confis0oooooo"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["client.confis.ConfisClient"]
+  },
+  "mixins": ["confis0oooooo.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
